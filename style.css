@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1721157549738-b0fd8d1a1e9d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=1826&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 420px;
     background: transparent;
-    border: 2px solid #515151;
+    border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 30px 40px;
@@ -59,6 +59,7 @@ h1 {
     right: 20px;
     top: 20%;
     margin: 5px;
+    
 }
 
 .input-container a {
@@ -90,6 +91,24 @@ h1 {
     background-color: #6216c0;
 }
 
+.register-link p  {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
 .register-link p a {
-    
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
 }
